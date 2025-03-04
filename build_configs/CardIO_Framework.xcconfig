@@ -4,8 +4,6 @@
 //
 //
 
-ONLY_ACTIVE_ARCH = NO
-
 GCC_VERSION = com.apple.compilers.llvm.clang.1_0
 
 CODE_SIGN_IDENTITY = iPhone Developer

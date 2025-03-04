@@ -6,6 +6,8 @@
 
 #include "Project.xcconfig"
 
+ONLY_ACTIVE_ARCH = NO
+
 CODE_SIGN_ENTITLEMENTS = SupportFiles/AdHocEntitlements.plist
 
 PRELINK_LIBS = $(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a

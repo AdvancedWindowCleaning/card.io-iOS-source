@@ -14,6 +14,8 @@ EXPORTED_SYMBOLS_FILE = SupportFiles/CardIO_exported_symbols.txt
 
 PRELINK_LIBS = $(SRCROOT)/opencv_device/lib/libopencv_core.a $(SRCROOT)/opencv_device/lib/libopencv_imgproc.a
 
+ARCHS[sdk=iphoneos*]=$(ARCHS_STANDARD) arm64e
+
 //OTHER_CFLAGS[arch=armv7s] = -mfloat-abi=softfp -mfpu=neon
 //OTHER_CFLAGS[arch=armv7] = -mfloat-abi=softfp -mfpu=neon
 
