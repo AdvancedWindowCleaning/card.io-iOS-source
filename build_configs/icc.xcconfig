@@ -33,4 +33,4 @@ INFOPLIST_FILE = icc-Framework-Info.plist
 PRODUCT_NAME = $(TARGET_NAME)
 
 // Requirement for embedded frameworks
-IPHONEOS_DEPLOYMENT_TARGET = 8.0
+IPHONEOS_DEPLOYMENT_TARGET = 13.0
