@@ -8,8 +8,6 @@
 
 GCC_OPTIMIZATION_LEVEL = 0
 
-ARCHS[sdk=iphoneos*]=$(ARCHS_STANDARD) arm64e
-
 //OTHER_CFLAGS[arch=armv7] = -mfloat-abi=softfp -mfpu=neon
 //OTHER_CFLAGS[sdk=iphoneos*][arch=armv7s] = -mfloat-abi=softfp -mfpu=neon
 
