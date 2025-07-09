@@ -2511,6 +2511,7 @@
 			baseConfigurationReference = A50A54BA1BE2F7A800B669FB /* UnitTest_Debug.xcconfig */;
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -2520,6 +2521,7 @@
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				ONLY_ACTIVE_ARCH = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2529,6 +2531,7 @@
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				ONLY_ACTIVE_ARCH = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = AdHoc;
 		};
@@ -2545,6 +2548,7 @@
 			baseConfigurationReference = A50A54AF1BE2F7A800B669FB /* CardIO_Static_Library_Debug.xcconfig */;
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -2554,6 +2558,7 @@
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				ONLY_ACTIVE_ARCH = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2563,6 +2568,7 @@
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				ONLY_ACTIVE_ARCH = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = AdHoc;
 		};
@@ -2571,6 +2577,7 @@
 			baseConfigurationReference = A553B71B1BE32664006DF551 /* icc_Static_Library_Debug.xcconfig */;
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -2597,6 +2604,7 @@
 			baseConfigurationReference = A50A54BE1BE2FEEC00B669FB /* CardIO_Framework_Debug.xcconfig */;
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -2624,6 +2632,7 @@
 			buildSettings = {
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				ONLY_ACTIVE_ARCH = YES;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
