@@ -2510,6 +2510,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BA1BE2F7A800B669FB /* UnitTest_Debug.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Debug;
 		};
@@ -2517,6 +2518,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BB1BE2F7A800B669FB /* UnitTest_Release.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Release;
 		};
@@ -2524,6 +2526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B91BE2F7A800B669FB /* UnitTest_AdHoc.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = AdHoc;
 		};
@@ -2539,6 +2542,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AF1BE2F7A800B669FB /* CardIO_Static_Library_Debug.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Debug;
 		};
@@ -2546,6 +2550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B01BE2F7A800B669FB /* CardIO_Static_Library_Release.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Release;
 		};
@@ -2553,6 +2558,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54AE1BE2F7A800B669FB /* CardIO_Static_Library_AdHoc.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = AdHoc;
 		};
@@ -2560,6 +2566,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A553B71B1BE32664006DF551 /* icc_Static_Library_Debug.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Debug;
 		};
@@ -2567,6 +2574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Release;
 		};
@@ -2574,6 +2582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A553B71C1BE32664006DF551 /* icc_Static_Library_Release.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = AdHoc;
 		};
@@ -2581,6 +2590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BE1BE2FEEC00B669FB /* CardIO_Framework_Debug.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Debug;
 		};
@@ -2588,6 +2598,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BF1BE2FEEC00B669FB /* CardIO_Framework_Release.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Release;
 		};
@@ -2595,6 +2606,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54BD1BE2FEEC00B669FB /* CardIO_Framework_Adhoc.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = AdHoc;
 		};
@@ -2602,6 +2614,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B41BE2F7A800B669FB /* icc_Debug.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = Debug;
 		};
@@ -2609,6 +2622,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B51BE2F7A800B669FB /* icc_Release.xcconfig */;
 			buildSettings = {
+				EXCLUDED_ARCHS = "";
 			};
 			name = Release;
 		};
@@ -2616,6 +2630,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A50A54B31BE2F7A800B669FB /* icc_AdHoc.xcconfig */;
 			buildSettings = {
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 			};
 			name = AdHoc;
 		};
